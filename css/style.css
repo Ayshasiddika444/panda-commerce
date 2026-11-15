@@ -129,4 +129,4 @@ footer small { color: #999; }
 @media (max-width: 600px) {
   .mission-images { grid-template-columns: 1fr; }
 }
-.credit { margin-top: 10px; font-size: 13px; color: #bbb; }
+.credit { margin-top: 10px; font-size: 12px; color: #bbb; }
