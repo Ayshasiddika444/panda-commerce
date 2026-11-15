@@ -36,14 +36,10 @@ img { max-width: 100%; display: block; }
 .btn-outline:hover { background: var(--accent); color: #fff; }
 
 /* ===== Banner slider ===== */
-.banner {
-  position: relative; background: #fbe9e7;
-  max-width: 1120px; margin: 30px auto;
-  border-radius: 10px; overflow: hidden;
-}
+.banner { position: relative; background: var(--pink); overflow: hidden; }
 .slide {
   display: none; align-items: center; justify-content: space-between;
-  gap: 40px; padding: 40px; min-height: 480px;
+  gap: 40px; padding: 40px 8% 40px 12%; min-height: 520px;
 }
 .slide.active { display: flex; }
 .slide-text { flex: 1; max-width: 520px; }
